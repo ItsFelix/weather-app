@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/weather-app/static/media/background.bc832e40.jpg"
   },
   {
-    "revision": "abba244f9bf043e991c98a8b06d297d5",
+    "revision": "a02d48001558733b51041e8436da5895",
     "url": "/weather-app/index.html"
   }
 ];
