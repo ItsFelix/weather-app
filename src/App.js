@@ -25,7 +25,7 @@ class App extends Component {
     console.log(response);
     if(city && country){
       this.setState({
-        temperature: response.main.temp,
+        temperature: (response.main.temp - 273).toFixed(2),
         city: response.name,
         country: response.sys.country,
         humidity: response.main.humidity,
